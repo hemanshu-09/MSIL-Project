@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MSIL</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="/css/animate.min.css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--navbar-->    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-2" href="javascript:void(0)">
+            <img src="/images/header-logo.png" alt="Headerlogo" height="58px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="javascript:void(0)">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Career</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex ms-lg-3 me-lg-2">
+                
+                <button class="login-btn" type="button">
+                  <img src="/images/login-icon.svg">
+                  Login
+                </button>
+              <button class="login-btn ms-2" type="button">
+                <img src="/images/signup-icon.svg">
+                Sign Up
+              </button>
+            </form>
+          </div>
+        </div>
+    </nav>
+<!--navbar-->  
+<!--banner-->
+<div class="banner">
+    <img src="/images/hero-section.png" alt="hero section" class="img-fluid">
+</div>
+<div class="banner-inner">
+<div class="container">
+  <div class="banner-content">
+        <h1 class="site-title">
+          Morogoro Sugar is Tanzania's Best Sugar Producer
+        </h1>
+        <p class="site-title-desc mt-3">
+          To establish ourselves as a trusted sugar manufacturer, committed to quality, sustainability, and innovation in the industry.
+        </p>
+  </div>
+</div>
+</div>
+<!--banner-->
+<!--about-->
+<div class="about fadein-effect">
+<div class="container mt-5">
+  <div class="row pt-lg-5">
+    <div class="col-md-6 col-lg-6 mt-5 mt-sm-5 mt-md-5 mt-lg-0 order-2 order-sm-2 order-md-1 fadein-effect">
+      <img src="images/about-img.png" class="img-fluid pe-lg-5">
+    </div>
+    <div class="col-md-6 col-lg-6 order-1 order-sm-1 order-md-2 fadein-effect">
+      <div class="title-tag">
+        <p>About Us</p>
+      </div>
+      <h2 class="about-title">Morogoro Sugar Company</h2>
+      <p class="about-desc">
+        At Morogoro Sugar, we are dedicated to producing high-quality sugar with a commitment to excellence. As a newly established sugar manufacturer, we aim to contribute to the industry with innovation, sustainability, and a passion for delivering pure sweetness to our customers.
+      </p>
+      <button type="button" class="about-btn">
+        Learn More
+        <svg width="20px" height="20px" viewBox="0 0 0.6 0.6" xmlns="http://www.w3.org/2000/svg" id="right" class="icon glyph"><path d="M0.548 0.29a0.03 0.03 0 0 0 -0.005 -0.008l-0.175 -0.175a0.025 0.025 0 0 0 -0.035 0.035l0.133 0.132H0.075a0.025 0.025 0 0 0 0 0.05h0.39l-0.133 0.132a0.025 0.025 0 0 0 0 0.035 0.025 0.025 0 0 0 0.035 0l0.175 -0.175a0.03 0.03 0 0 0 0.005 -0.008 0.024 0.024 0 0 0 0 -0.019"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+<!--about-->
+<!--product-->
+<div class="product">
+  <div class="container mt-5">
+    <div class="row pt-lg-5 fadein-effect">
+      <div class="col-lg-6">
+        <div class="title-tag">
+          <p>Product</p>
+        </div>
+        <h2 class="about-title">All Product</h2>
+        <p class="about-desc">
+          We believe that responsible business practices and sustainable initiatives pave the way for a better future.
+        </p>
+        <button type="button" class="about-btn">
+          Learn More
+          <svg width="20px" height="20px" viewBox="0 0 0.6 0.6" xmlns="http://www.w3.org/2000/svg" id="right" class="icon glyph"><path d="M0.548 0.29a0.03 0.03 0 0 0 -0.005 -0.008l-0.175 -0.175a0.025 0.025 0 0 0 -0.035 0.035l0.133 0.132H0.075a0.025 0.025 0 0 0 0 0.05h0.39l-0.133 0.132a0.025 0.025 0 0 0 0 0.035 0.025 0.025 0 0 0 0.035 0l0.175 -0.175a0.03 0.03 0 0 0 0.005 -0.008 0.024 0.024 0 0 0 0 -0.019"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="row mt-5 fadein-effect">
+      <div class="col-sm-6 col-md-6 col-lg-4 mb-3 mb-sm-3 mb-md-3 mb-lg-0">
+        <div class="product-inner">
+          <a href="javascript:void(0)">
+            <img class="img-fluid" src="/images/white-sugar-package.png" alt="white sugar">
+            <h5>White Sugar</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4 mb-3 mb-sm-3 mb-md-3 mb-lg-0">
+        <div class="product-inner">
+          <a href="javascript:void(0)">
+          <img class="img-fluid" src="/images/brown-sugar-package.png" alt="white sugar">
+          <h5>Brown Sugar</h5>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4 mb-3 mb-sm-3 mb-md-3 mb-lg-0">
+        <div class="product-inner">
+          <a href="javascript:void(0)">
+          <img class="img-fluid" src="/images/jaggry-powder.png" alt="white sugar">
+          <h5>Jaggary Powder</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<!--product-->
+<!--Blog-->
+<div class="blog mt-5 fadein-effect">
+  <div class="container">
+    <div class="row pt-5 pb-5">
+      <div class="col-md-5 col-lg-5 fadein-effect">
+        <div class="title-tag">
+          <p>Blogs</p>
+        </div>
+        <h2 class="about-title">Latest News From Our blog & Event </h2>
+        <p class="about-desc">
+          Stay up-to-date with the latest trends, insights, and inspiration in the world of tattoos, piercings, and body art through our blog. 
+        </p>
+        <button type="button" class="about-btn">
+          More Blog
+          <svg width="20px" height="20px" viewBox="0 0 0.6 0.6" xmlns="http://www.w3.org/2000/svg" id="right" class="icon glyph"><path d="M0.548 0.29a0.03 0.03 0 0 0 -0.005 -0.008l-0.175 -0.175a0.025 0.025 0 0 0 -0.035 0.035l0.133 0.132H0.075a0.025 0.025 0 0 0 0 0.05h0.39l-0.133 0.132a0.025 0.025 0 0 0 0 0.035 0.025 0.025 0 0 0 0.035 0l0.175 -0.175a0.03 0.03 0 0 0 0.005 -0.008 0.024 0.024 0 0 0 0 -0.019"/></svg>
+        </button>
+      </div>
+      <div class="col-md-7 col-lg-7 fadein-effect">
+        <div class="blog-post ms-lg-4">
+          <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <img class="img-fluid blog-image" src="/images/blog1-img.png" alt="blog1-img">
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8">
+              <a href="javascript:void(0)" class="blog-title">
+                What is Website Architecture — How to Build a Search-Friendly Site
+              </a>
+              <img src="/images/blog-date.png" alt="blog-date" height="25px" class="mt-2">
+            </div>
+          </div>
+        </div>
+        <div class="blog-post ms-lg-4">
+          <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <img class="img-fluid blog-image" src="/images/blog-2-img.png" alt="blog1-img">
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8">
+              <a href="javascript:void(0)" class="blog-title">
+                The Ultimate Guide to Designing User-Friendly Data Tables
+              </a>
+              <img src="/images/blog-date.png" alt="blog-date" height="25px" class="mt-2">
+            </div>
+          </div>
+        </div>
+        <div class="blog-post ms-lg-4">
+          <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <img class="img-fluid blog-image" src="/images/blog1-img.png" alt="blog1-img">
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8">
+              <a href="javascript:void(0)" class="blog-title">
+                What is Website Architecture — How to Build a Search-Friendly Site
+              </a>
+              <img src="/images/blog-date.png" alt="blog-date" height="25px" class="mt-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Blog-->
+<!--career-->
+<div class="career mt-5 mb-5 fadein-effect">
+  <div class="container">
+    <div class="row d-flex align-items-center">
+      <div class="col-sm-6 col-lg-6 fadein-effect">
+         <img src="/images/Illustration.png" class="img-fluid"> 
+      </div>
+      <div class="col-sm-6 col-lg-6 mt-5 mt-md-0 fadein-effect">
+        <div class="title-tag">
+          <p>Career</p>
+        </div>
+        <h2 class="about-title">Work With Us</h2>
+        <p class="about-desc">
+          Joining Morogoro Sugar means becoming a part of a dynamic team that values innovation, sustainability, and excellence. We are committed to nurturing talent, fostering growth, and empowering our employees to thrive in a collaborative and supportive environment.
+        </p>
+        <button type="button" class="about-btn">
+         View More Opening
+          <svg width="20px" height="20px" viewBox="0 0 0.6 0.6" xmlns="http://www.w3.org/2000/svg" id="right" class="icon glyph"><path d="M0.548 0.29a0.03 0.03 0 0 0 -0.005 -0.008l-0.175 -0.175a0.025 0.025 0 0 0 -0.035 0.035l0.133 0.132H0.075a0.025 0.025 0 0 0 0 0.05h0.39l-0.133 0.132a0.025 0.025 0 0 0 0 0.035 0.025 0.025 0 0 0 0.035 0l0.175 -0.175a0.03 0.03 0 0 0 0.005 -0.008 0.024 0.024 0 0 0 0 -0.019"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--career-->
+<!--csr-->
+<div class="blog csr fadein-effect">
+  <div class="container">
+    <div class="row pt-5 fadein-effect">
+      <div class="col-md-6 col-lg-6 mt-lg-5 mb-5">
+        <div class="title-tag">
+          <p>CSR</p>
+        </div>
+        <h2 class="about-title">Corporate Social Responsibility (CSR) </h2>
+        <p class="about-desc">
+          At Morogoro Sugar, we are committed to sustainable  growth, environmental responsibility, and the well-being of the communities we serve. Our Corporate Social Responsibility (CSR) initiatives focus on improving lives, conserving nature, and promoting ethical business practices.
+        </p>
+      </div>
+      <div class="col-md-6 col-lg-6 mt-lg-5 mb-5">
+        <img src="/images/csr-right-img.png" class="img-fluid csr-top-img">
+      </div>
+    </div>
+    <div class="row mb-3 fadein-effect">
+      <div class="col-lg-12">
+        <h2 class="about-title">Our CSR Initiatives</h2>
+      </div>
+    </div>
+    <div class="row pb-5 fadein-effect">
+      <div class="col-md-6 col-lg-6">
+        <div class="tab-menu">
+          <div class="nav flex-column nav-pills me-lg-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+              <svg width="20px" height="20px" viewBox="0 0 0.6 0.6" xmlns="http://www.w3.org/2000/svg" id="right" class="icon glyph"><path d="M0.548 0.29a0.03 0.03 0 0 0 -0.005 -0.008l-0.175 -0.175a0.025 0.025 0 0 0 -0.035 0.035l0.133 0.132H0.075a0.025 0.025 0 0 0 0 0.05h0.39l-0.133 0.132a0.025 0.025 0 0 0 0 0.035 0.025 0.025 0 0 0 0.035 0l0.175 -0.175a0.03 0.03 0 0 0 0.005 -0.008 0.024 0.024 0 0 0 0 -0.019"></path></svg>
+              Sustainable Agriculture & Farmer Welfare
+            </button>
+            <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+              <svg width="20px" height="20px" viewBox="0 0 0.6 0.6" xmlns="http://www.w3.org/2000/svg" id="right" class="icon glyph"><path d="M0.548 0.29a0.03 0.03 0 0 0 -0.005 -0.008l-0.175 -0.175a0.025 0.025 0 0 0 -0.035 0.035l0.133 0.132H0.075a0.025 0.025 0 0 0 0 0.05h0.39l-0.133 0.132a0.025 0.025 0 0 0 0 0.035 0.025 0.025 0 0 0 0.035 0l0.175 -0.175a0.03 0.03 0 0 0 0.005 -0.008 0.024 0.024 0 0 0 0 -0.019"></path></svg>
+              Environmental Conservation
+            </button>
+            <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+              <svg width="20px" height="20px" viewBox="0 0 0.6 0.6" xmlns="http://www.w3.org/2000/svg" id="right" class="icon glyph"><path d="M0.548 0.29a0.03 0.03 0 0 0 -0.005 -0.008l-0.175 -0.175a0.025 0.025 0 0 0 -0.035 0.035l0.133 0.132H0.075a0.025 0.025 0 0 0 0 0.05h0.39l-0.133 0.132a0.025 0.025 0 0 0 0 0.035 0.025 0.025 0 0 0 0.035 0l0.175 -0.175a0.03 0.03 0 0 0 0.005 -0.008 0.024 0.024 0 0 0 0 -0.019"></path></svg>
+              Community Development & Welfare
+            </button>
+            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+              <svg width="20px" height="20px" viewBox="0 0 0.6 0.6" xmlns="http://www.w3.org/2000/svg" id="right" class="icon glyph"><path d="M0.548 0.29a0.03 0.03 0 0 0 -0.005 -0.008l-0.175 -0.175a0.025 0.025 0 0 0 -0.035 0.035l0.133 0.132H0.075a0.025 0.025 0 0 0 0 0.05h0.39l-0.133 0.132a0.025 0.025 0 0 0 0 0.035 0.025 0.025 0 0 0 0.035 0l0.175 -0.175a0.03 0.03 0 0 0 0.005 -0.008 0.024 0.024 0 0 0 0 -0.019"></path></svg>
+              Water Conservation & Sanitation
+            </button>
+            <button class="nav-link" id="v-pills-five-tab" data-bs-toggle="pill" data-bs-target="#v-pills-five" type="button" role="tab" aria-controls="v-pills-five" aria-selected="false">
+              <svg width="20px" height="20px" viewBox="0 0 0.6 0.6" xmlns="http://www.w3.org/2000/svg" id="right" class="icon glyph"><path d="M0.548 0.29a0.03 0.03 0 0 0 -0.005 -0.008l-0.175 -0.175a0.025 0.025 0 0 0 -0.035 0.035l0.133 0.132H0.075a0.025 0.025 0 0 0 0 0.05h0.39l-0.133 0.132a0.025 0.025 0 0 0 0 0.035 0.025 0.025 0 0 0 0.035 0l0.175 -0.175a0.03 0.03 0 0 0 0.005 -0.008 0.024 0.024 0 0 0 0 -0.019"></path></svg>
+              Renewable Energy & Innovation
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <div class="tab-content-area">
+                <img src="/images/tab-1.png" class="img-fluid mb-3">
+                <p class="tab-conent-detail">
+                  •	We provide training programs to educate farmers on sustainable sugarcane farming practices.
+                </p>
+                <p class="tab-conent-detail">
+                  •	Support for organic farming and efficient irrigation techniques to reduce water consumption.
+                </p>
+                <p class="tab-conent-detail">
+                  •	Fair pricing and timely payments to ensure the economic stability of farmers.
+                </p>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            <div class="tab-content-area">
+              <img src="/images/tab-2.png" class="img-fluid mb-3">
+              <p class="tab-conent-detail">
+                •	Adoption of eco-friendly production processes to minimize carbon emissions.
+              </p>
+              <p class="tab-conent-detail">
+                •	Efficient waste management systems, including recycling and responsible disposal.
+              </p>
+              <p class="tab-conent-detail">
+                •	Reforestation and afforestation programs to enhance biodiversity.
+              </p>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            <div class="tab-content-area">
+              <img src="/images/tab-3.png" class="img-fluid mb-3">
+              <p class="tab-conent-detail">
+                •	Healthcare camps and medical assistance for sugarcane farmers and factory workers.
+              </p>
+              <p class="tab-conent-detail">
+                •	Educational support, scholarships, and infrastructure development for rural schools.
+              </p>
+              <p class="tab-conent-detail">
+                •	Women empowerment programs, including vocational training and self-help groups.
+              </p>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+            <div class="tab-content-area">
+              <img src="/images/tab-4.png" class="img-fluid mb-3">
+              <p class="tab-conent-detail">
+                •	Installation of water purification systems in local communities.
+              </p>
+              <p class="tab-conent-detail">
+                •	Rainwater harvesting projects to promote sustainable water use.
+              </p>
+              <p class="tab-conent-detail">
+                •	Awareness programs on hygiene, sanitation, and waste management.
+              </p>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-five" role="tabpanel" aria-labelledby="v-pills-five-tab">
+            <div class="tab-content-area">
+              <img src="/images/tab-5.png" class="img-fluid mb-3">
+              <p class="tab-conent-detail">
+                •	Use of bagasse (sugarcane by-product) for bio-energy production to reduce dependency on fossil fuels.
+              </p>
+              <p class="tab-conent-detail">
+                •	Investment in solar and wind energy projects to support clean energy initiatives.
+              </p>
+              <p class="tab-conent-detail">
+                •	Research and innovation in sustainable sugar production methods.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+</div>
+<!--csr-->
+<!--contact-->
+<div class="contact pt-5 pb-5 fadein-effect">
+  <div class="container">
+    <div class="row d-flex justify-content-center fadein-effect">
+      <div class="col-lg-6 text-center">
+        <div class="title-tag">
+          <p>Contact</p>
+        </div>
+        <h2 class="about-title">Discover Our Location</h2>
+        <p class="heading-text">Whether you're visiting us in person or simply want to know where we're based, here's some helpful information about our location</p>
+      </div>
+    </div>
+    <div class="row mt-5 fadein-effect">
+      <div class="col-md-4 col-lg-4">
+        <div class="row mb-4 mb-sm-4 mb-md-0">
+          <div class="col-2 col-sm-2 col-md-3 col-lg-2">
+            <div class="icon-area">
+              <svg fill="#fff" width="30px" height="30px" viewBox="0 0 0.66 0.66" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0.522 0.11a0.083 0.083 0 0 1 0.083 0.083v0.275a0.083 0.083 0 0 1 -0.083 0.083H0.138a0.083 0.083 0 0 1 -0.083 -0.083V0.193a0.083 0.083 0 0 1 0.083 -0.083zm0.028 0.092 -0.202 0.177a0.028 0.028 0 0 1 -0.034 0.002l-0.003 -0.002L0.11 0.202V0.468a0.028 0.028 0 0 0 0.028 0.028h0.385a0.028 0.028 0 0 0 0.028 -0.028zM0.508 0.165H0.152L0.33 0.321z"/></svg>
+            </div>
+          </div>
+          <div class="col-10 col-sm-10 col-md-9 col-lg-10">
+            <h5>Send Us an Email</h5>
+            <p class="text-desc">We'd love to hear from you! Please feel free to reach out to us via mail.</p>
+            <button type="button" class="contact-btn">example@gmail.com</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4">
+        <div class="row mb-4 mb-sm-4 mb-md-0">
+          <div class="col-2 col-sm-2 col-md-3 col-lg-2">
+            <div class="icon-area">
+              <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.144 0.15h0.168L0.366 0.286l-0.087 0.058A0.037 0.037 0 0 0 0.263 0.375c0 0.004 0 0 0 0v0.001a0.075 0.075 0 0 0 0 0.005q0 0.005 0.001 0.012c0.001 0.01 0.004 0.024 0.01 0.041 0.011 0.033 0.033 0.076 0.075 0.118s0.085 0.064 0.118 0.075c0.016 0.005 0.03 0.008 0.041 0.01a0.15 0.15 0 0 0 0.017 0.002l0 0h0s0.004 0 0 0a0.037 0.037 0 0 0 0.034 -0.021l0.025 -0.05 0.166 0.028v0.162c-0.079 0.011 -0.293 0.023 -0.461 -0.145S0.132 0.229 0.144 0.15m0.197 0.243 0.068 -0.045a0.075 0.075 0 0 0 0.028 -0.09L0.382 0.122A0.075 0.075 0 0 0 0.312 0.075H0.142c-0.034 0 -0.066 0.024 -0.072 0.061 -0.013 0.084 -0.03 0.332 0.166 0.528s0.444 0.179 0.528 0.166c0.037 -0.006 0.061 -0.038 0.061 -0.072v-0.164a0.075 0.075 0 0 0 -0.063 -0.074l-0.166 -0.028a0.075 0.075 0 0 0 -0.079 0.04l-0.013 0.026a0.188 0.188 0 0 1 -0.014 -0.004c-0.023 -0.008 -0.056 -0.024 -0.088 -0.057s-0.049 -0.065 -0.057 -0.088a0.188 0.188 0 0 1 -0.005 -0.017z" fill="#fff"/></svg>
+            </div>
+          </div>
+          <div class="col-10 col-sm-10 col-md-9 col-lg-10">
+            <h5>Give Us a Call</h5>
+            <p class="text-desc">We're here to help! Don't hesitate to reach out to us by phone.</p>
+            <button type="button" class="contact-btn">+255 123-4567-90</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4">
+        <div class="row">
+          <div class="col-2 col-sm-2 col-md-3 col-lg-2">
+            <div class="icon-area">
+              <svg fill="#fff" width="30px" height="30px" viewBox="0 0 3.75 3.75" xmlns="http://www.w3.org/2000/svg"><path d="M1.837 0.71a0.89 0.89 0 0 0 -0.89 0.894c0 0.618 0.637 1.185 0.834 1.335a0.092 0.092 0 0 0 0.117 0c0.197 -0.154 0.829 -0.717 0.829 -1.335A0.89 0.89 0 0 0 1.837 0.71m0 1.264a0.375 0.375 0 1 1 0.375 -0.375 0.375 0.375 0 0 1 -0.375 0.375"/></svg>
+            </div>
+          </div>
+          <div class="col-10 col-sm-10 col-md-9 col-lg-10">
+            <h5>Address</h5>
+            <p class="text-desc">This text provides essential information about the address.This text provides essential information about the address.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--contact-->
+<!--footer-->
+<footer>
+  <div class="container">
+    <div class="footer-top pt-5 pb-5 fadein-effect">
+      <div class="footer-logo text-center">
+        <a href="javascript:void(0)">
+          <img src="/images/footer-logo.png" alt="footer-logo" height="90px">
+        </a>
+      </div> 
+      <div class="footer-menu">
+        <ul>
+          <li><a href="javascript:void(0)" class="active">Home</a></li>
+          <li><a href="javascript:void(0)">About</a></li>
+          <li><a href="javascript:void(0)">Product</a></li>
+          <li><a href="javascript:void(0)">Blogs</a></li>
+          <li><a href="javascript:void(0)">Career</a></li>
+          <li><a href="javascript:void(0)">Contact</a></li>
+        </ul>
+      </div> 
+      <div class="footer-btn text-center mt-4 mb-4">
+        <button class="login-btn" type="button">
+          <img src="/images/login-icon.svg">
+          Login
+        </button>
+        <button class="login-btn ms-2" type="button">
+          <img src="/images/signup-icon.svg">
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom pt-4 pb-4">
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-6">
+          <p>@2024 Morogoro Sugar All right Reserved</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="social-icon">
+            <ul>
+              <li>
+                <a href="javascript:void(0)">
+                  <svg  width="22px" height="22px" viewBox="0 0 0.6 0.6" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="M0.575 0.243a0.213 0.213 0 0 0 -0.023 -0.103 0.073 0.073 0 0 0 -0.043 -0.025A1.95 1.95 0 0 0 0.3 0.107a1.975 1.975 0 0 0 -0.209 0.007 0.072 0.072 0 0 0 -0.036 0.018c-0.023 0.021 -0.025 0.056 -0.028 0.086a1.2 1.2 0 0 0 0 0.162 0.24 0.24 0 0 0 0.007 0.05 0.079 0.079 0 0 0 0.018 0.034 0.071 0.071 0 0 0 0.037 0.02 1.125 1.125 0 0 0 0.163 0.008c0.088 0.001 0.164 0 0.255 -0.007a0.072 0.072 0 0 0 0.038 -0.02 0.063 0.063 0 0 0 0.015 -0.025 0.265 0.265 0 0 0 0.013 -0.085c0.001 -0.014 0.001 -0.099 0.001 -0.114M0.244 0.371V0.217l0.148 0.078c-0.042 0.023 -0.096 0.049 -0.148 0.077"/></svg>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <svg height="22px" width="22px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 0.88 0.88" xml:space="preserve"><path d="M0.632 0H0.247C0.11 0 0 0.11 0 0.247v0.385c0 0.138 0.11 0.247 0.247 0.247h0.385c0.138 0 0.247 -0.11 0.247 -0.247V0.247c0 -0.138 -0.11 -0.247 -0.247 -0.247M0.33 0.688c0 0.017 -0.011 0.028 -0.028 0.028H0.193c-0.017 0 -0.028 -0.011 -0.028 -0.028V0.357c0 -0.017 0.011 -0.028 0.028 -0.028h0.11c0.017 0 0.028 0.011 0.028 0.028zM0.247 0.302c-0.047 0 -0.083 -0.036 -0.083 -0.083s0.036 -0.083 0.083 -0.083 0.083 0.036 0.083 0.083 -0.036 0.083 -0.083 0.083m0.468 0.385c0 0.017 -0.011 0.028 -0.028 0.028h-0.083c-0.017 0 -0.028 -0.011 -0.028 -0.028v-0.179c0 -0.022 -0.019 -0.041 -0.041 -0.041s-0.041 0.019 -0.041 0.041V0.688c0 0.017 -0.011 0.028 -0.028 0.028h-0.083c-0.017 0 -0.028 -0.011 -0.028 -0.028V0.357c0 -0.017 0.011 -0.028 0.028 -0.028h0.11c0.008 0 0.014 0.003 0.019 0.008q0.025 -0.008 0.05 -0.008c0.083 0 0.151 0.069 0.151 0.151z"/></svg>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <svg width="22px" height="22px" viewBox="0 0 0.66 0.66" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="M0.477 0.15a0.033 0.033 0 1 0 0.033 0.033 0.033 0.033 0 0 0 -0.033 -0.033m0.127 0.067a0.209 0.209 0 0 0 -0.013 -0.067 0.135 0.135 0 0 0 -0.032 -0.049 0.129 0.129 0 0 0 -0.049 -0.032 0.201 0.201 0 0 0 -0.067 -0.013C0.414 0.055 0.405 0.055 0.33 0.055s-0.084 0 -0.113 0.002a0.201 0.201 0 0 0 -0.067 0.013 0.132 0.132 0 0 0 -0.049 0.032 0.129 0.129 0 0 0 -0.032 0.049 0.201 0.201 0 0 0 -0.013 0.067C0.055 0.246 0.055 0.255 0.055 0.33s0 0.084 0.002 0.113a0.201 0.201 0 0 0 0.013 0.067 0.129 0.129 0 0 0 0.032 0.049 0.132 0.132 0 0 0 0.049 0.032 0.201 0.201 0 0 0 0.067 0.013C0.246 0.605 0.255 0.605 0.33 0.605s0.084 0 0.113 -0.002a0.201 0.201 0 0 0 0.067 -0.013 0.129 0.129 0 0 0 0.049 -0.032 0.133 0.133 0 0 0 0.032 -0.049 0.209 0.209 0 0 0 0.013 -0.067c0 -0.029 0.002 -0.038 0.002 -0.113s0 -0.084 -0.002 -0.113M0.554 0.44a0.154 0.154 0 0 1 -0.009 0.051 0.084 0.084 0 0 1 -0.021 0.032 0.088 0.088 0 0 1 -0.032 0.021 0.154 0.154 0 0 1 -0.051 0.009c-0.028 0.001 -0.038 0.002 -0.11 0.002s-0.083 0 -0.11 -0.002a0.157 0.157 0 0 1 -0.053 -0.008 0.091 0.091 0 0 1 -0.03 -0.021 0.083 0.083 0 0 1 -0.02 -0.032 0.151 0.151 0 0 1 -0.011 -0.052c0 -0.028 -0.002 -0.038 -0.002 -0.11s0 -0.083 0.002 -0.11a0.151 0.151 0 0 1 0.01 -0.052A0.083 0.083 0 0 1 0.138 0.138a0.085 0.085 0 0 1 0.03 -0.022A0.157 0.157 0 0 1 0.22 0.106c0.028 0 0.038 -0.002 0.11 -0.002s0.083 0 0.11 0.002a0.154 0.154 0 0 1 0.051 0.009 0.084 0.084 0 0 1 0.033 0.022 0.085 0.085 0 0 1 0.021 0.03 0.154 0.154 0 0 1 0.009 0.052c0.001 0.028 0.002 0.038 0.002 0.11s0 0.083 -0.002 0.11M0.33 0.189A0.141 0.141 0 1 0 0.471 0.33 0.141 0.141 0 0 0 0.33 0.189m0 0.233A0.092 0.092 0 1 1 0.422 0.33 0.092 0.092 0 0 1 0.33 0.422"/></svg>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 1.43 1.43" enable-background="new 0 0 52 52" xml:space="preserve"><g><path d="M0.685 0.828c0.017 0.017 0.041 0.017 0.058 0l0.622 -0.578c0.011 -0.022 0.008 -0.058 -0.036 -0.058l-1.229 0.003c-0.033 0 -0.061 0.03 -0.036 0.058z"/><path d="M1.375 0.476c0 -0.028 -0.033 -0.044 -0.055 -0.025L0.833 0.899c-0.033 0.03 -0.074 0.047 -0.118 0.047s-0.085 -0.017 -0.118 -0.044L0.113 0.451c-0.022 -0.019 -0.055 -0.006 -0.055 0.025C0.055 0.468 0.055 1.1 0.055 1.1c0 0.061 0.05 0.11 0.11 0.11h1.1c0.061 0 0.11 -0.05 0.11 -0.11z"/></g></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer-->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate.min.js"></script>
+<script src="js/easing.min.js"></script>
+<script type="text/javascript">
+  $(document).on("scroll", function () {
+    var pageTop = $(document).scrollTop()
+    var pageBottom = pageTop + $(window).height()
+    var tags = $(".fadein-effect")
+
+    for (var i = 0; i < tags.length; i++) {
+      var tag = tags[i]
+
+      if ($(tag).offset().top < pageBottom) {
+        $(tag).addClass("visible")
+      } else {
+        $(tag).removeClass("visible")
+      }
+    }
+  })
+</script>
+</body>
+</html>
