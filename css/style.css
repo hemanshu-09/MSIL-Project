@@ -241,7 +241,7 @@ nav.bg-light {
 
 /*-----Blog-----*/
 .blog{
-    background-image: url('../images/Blog-cover-image.png');
+    background-image: url("../images/Blog-cover-image.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
